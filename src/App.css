@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  height: 40px;
+  background-color: blueviolet;
+
+}
+
+.logo{
+float: left;
+font-size: 25px;
+margin-left: 5%;
+margin-top: 2px;
+
+}
+
+form{
+margin-left: 40%;
+padding-top: 1vh;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 30%;
+  margin-top: 2%;
+}
